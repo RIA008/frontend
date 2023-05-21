@@ -1,0 +1,93 @@
+.post-card .primary .content {
+  -webkit-mask-image: linear-gradient(black 175px, transparent 250px);
+  mask-image: linear-gradient(black 175px, transparent 250px);
+}
+
+.post-card .secondary .title {
+  -webkit-mask-image: linear-gradient(black 70px, transparent 125px);
+  mask-image: linear-gradient(black 70px, transparent 125px);
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.post-card {
+  /* background-color: white; */
+  border: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* max-width: 600px; */
+  box-shadow: 0px 1px 10px -2px rgba(0, 0, 0, 0.1);
+}
+
+
+.post-card .post-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.post-card .post-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.post-card .post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-card .post-username {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.post-card .post-content {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.post-card .post-actions {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.post-card .post-actions i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.post-card .post-actions span {
+  margin-right: 15px;
+}
+
+.post-card .post-actions .like-btn {
+  color: #262626;
+}
+
+.post-card .post-actions .comment-btn {
+  color: #262626;
+}
+
+.post-card .post-actions .save-btn {
+  color: #262626;
+}
+
+.post-card .post-actions .more-btn {
+  color: #262626;
+}
+
+/* .post-card .post-actions .more-btn:hover {
+  cursor: pointer;
+} */
+
+
